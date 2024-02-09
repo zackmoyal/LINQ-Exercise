@@ -47,7 +47,7 @@
             // avg length of game names
             var averageLength = videoGames.Average(game => game.Length);
 
-            // counts number of games w/ names longer than 20 chars
+            // counts number of games w/ names longer than 15 chars
             var longGamesCount = videoGames.Count(game => game.Length > 15);
 
             // shortest game name
